@@ -1,42 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prodeep Privacy Policy</title>
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            max-width:800px;
-            margin:40px auto;
-            padding:20px;
-            line-height:1.7;
-            color:#333;
-        }
-        h1,h2{
-            color:#111;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>প্রদীপ — সংবাদ ও জ্ঞানের আলো</title>
+<meta name="description" content="প্রদীপ — ১০০+ সংবাদ উৎস, সাধারণ জ্ঞান, কারেন্ট অ্যাফেয়ার্স এবং সাপ্তাহিক কুইজ, সব একটি অ্যাপে।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;700;800&family=Hind+Siliguri:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<h1>Privacy Policy</h1>
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg class="lamp-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FBE7A8"/>
+            <stop offset="100%" stop-color="#EFC24B"/>
+          </linearGradient>
+        </defs>
+        <circle cx="20" cy="20" r="19" fill="#08424C" stroke="#0E6E7C"/>
+        <path d="M20 10c3 4 5 7 5 10a5 5 0 1 1-10 0c0-3 2-6 5-10z" fill="url(#flameGrad)"/>
+        <path d="M11 27c0-2 4-3 9-3s9 1 9 3-4 4-9 4-9-2-9-4z" fill="#22C7DE"/>
+      </svg>
+      <span>প্রদীপ<span class="brand-sub">জ্ঞানের আলো</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="মেনু খুলুন" onclick="document.querySelector('.main-nav').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html" class="active">হোম</a>
+      <a href="about.html">আমাদের সম্পর্কে</a>
+      <a href="privacy.html">গোপনীয়তা নীতি</a>
+      <a href="terms.html">শর্তাবলী</a>
+      <a href="contact.html">যোগাযোগ</a>
+    </nav>
+    <div class="header-actions">
+      <a href="contact.html" class="btn btn-gold">শুরু করুন</a>
+    </div>
+  </div>
+</header>
 
-<p>Last updated: July 3, 2026</p>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">বাংলাদেশের সংবাদ ও জ্ঞানভিত্তিক অ্যাপ</span>
+      <h1>জ্ঞানের <em>আলো</em>,<br>আপনার হাতের মুঠোয়</h1>
+      <p class="lead">১০০+ সংবাদমাধ্যমের খবর, সাধারণ জ্ঞান, কারেন্ট অ্যাফেয়ার্স আর প্রতি সপ্তাহে কুইজ — সব একটি অ্যাপে। প্রদীপ বানানো হয়েছে তাদের জন্য, যারা প্রতিদিন একটু একটু করে এগিয়ে যেতে চান।</p>
+      <div class="hero-cta">
+        <a href="contact.html" class="btn btn-gold">যোগাযোগ করুন</a>
+        <a href="about.html" class="btn btn-outline">আমাদের সম্পর্কে জানুন</a>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><b>১০০+</b><span>সংবাদ উৎস</span></div>
+        <div class="stat"><b>৫২+</b><span>বার্ষিক সাপ্তাহিক কুইজ</span></div>
+        <div class="stat"><b>২৪/৭</b><span>সংবাদ হালনাগাদ</span></div>
+      </div>
+    </div>
 
-<p>This Privacy Policy explains how Prodeep collects, uses, and protects your information.</p>
+    <div class="lamp-stage">
+      <div class="lamp-glow"></div>
+      <svg class="lamp-illustration" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="flameGradBig" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FBE7A8"/>
+            <stop offset="60%" stop-color="#EFC24B"/>
+            <stop offset="100%" stop-color="#C99A2E"/>
+          </linearGradient>
+          <linearGradient id="bowlGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#7FE0EC"/>
+            <stop offset="100%" stop-color="#22C7DE"/>
+          </linearGradient>
+        </defs>
+        <rect x="95" y="170" width="10" height="55" rx="3" fill="#0E6E7C"/>
+        <ellipse cx="100" cy="230" rx="46" ry="9" fill="#08424C"/>
+        <ellipse cx="100" cy="227" rx="46" ry="8" fill="#0E6E7C"/>
+        <path d="M45 168c0-10 25-16 55-16s55 6 55 16-25 20-55 20-55-10-55-20z" fill="url(#bowlGrad)"/>
+        <path d="M100 55c16 22 27 40 27 56a27 27 0 1 1-54 0c0-16 11-34 27-56z" fill="url(#flameGradBig)"/>
+      </svg>
+      <div class="badge badge-news"><span class="dot"></span>সংবাদ</div>
+      <div class="badge badge-gk"><span class="dot"></span>সাধারণ জ্ঞান</div>
+      <div class="badge badge-quiz"><span class="dot"></span>সাপ্তাহিক কুইজ</div>
+    </div>
+  </div>
+</section>
 
-<h2>Information We Collect</h2>
-<p>The app may collect device information, crash reports, and analytics to improve the service.</p>
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">প্রদীপে যা পাবেন</span>
+      <h2>একটি অ্যাপ, তিনটি শক্তি</h2>
+      <p>সংবাদ পড়া, জ্ঞান অর্জন আর প্রস্তুতি যাচাই করা — তিনটি কাজ এখন একই জায়গা থেকে করা যায়।</p>
+    </div>
+    <div class="cards-3">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 4h13a3 3 0 0 1 3 3v13H7a3 3 0 0 1-3-3V4z" stroke="#EFC24B" stroke-width="1.6"/><path d="M7 20a3 3 0 0 1-3-3V6" stroke="#22C7DE" stroke-width="1.6"/><path d="M8 8h9M8 12h9M8 16h5" stroke="#7FE0EC" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </div>
+        <h3>১০০+ সংবাদ উৎস</h3>
+        <p>দেশ-বিদেশের নির্ভরযোগ্য সংবাদমাধ্যমের খবর একত্রে, ক্যাটাগরি অনুযায়ী সাজানো — সময় বাঁচিয়ে গুরুত্বপূর্ণ খবরে চোখ রাখুন।</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4-8 4-8-4 8-4z" stroke="#EFC24B" stroke-width="1.6" stroke-linejoin="round"/><path d="M4 11v6l8 4 8-4v-6" stroke="#22C7DE" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>সাধারণ জ্ঞান ও কারেন্ট অ্যাফেয়ার্স</h3>
+        <p>চাকরি ও ভর্তি পরীক্ষার উপযোগী গুরুত্বপূর্ণ তথ্য প্রতিদিন সহজ ভাষায় হালনাগাদ হয়, যাতে প্রস্তুতি কখনো থেমে না থাকে।</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M9 11l2 2 4-4" stroke="#EFC24B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="#22C7DE" stroke-width="1.6"/></svg>
+        </div>
+        <h3>সাপ্তাহিক কুইজ</h3>
+        <p>প্রতি সপ্তাহে নতুন কুইজে অংশ নিয়ে নিজের প্রস্তুতি যাচাই করুন এবং নিজের অগ্রগতি নিজেই দেখুন।</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<h2>Permissions</h2>
-<p>The app may request permissions such as Internet access to provide its features.</p>
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">যেভাবে কাজ করে</span>
+      <h2>তিন ধাপে এগিয়ে যান</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="num">০১</span>
+        <h4>পড়ুন</h4>
+        <p>প্রতিদিনের গুরুত্বপূর্ণ সংবাদ ও সাধারণ জ্ঞান একসাথে পড়ুন, সময়মতো ও সংক্ষিপ্ত আকারে।</p>
+      </div>
+      <div class="step">
+        <span class="num">০২</span>
+        <h4>মনে রাখুন</h4>
+        <p>সহজ ভাষায় উপস্থাপিত তথ্য সহজে মনে থাকে এবং কাজে লাগানো যায়।</p>
+      </div>
+      <div class="step">
+        <span class="num">০৩</span>
+        <h4>পরীক্ষা দিন</h4>
+        <p>সাপ্তাহিক কুইজে অংশ নিয়ে নিজের প্রস্তুতি ও অগ্রগতি নিজেই যাচাই করুন।</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<h2>Third-Party Services</h2>
-<p>The app may use services such as Google Play Services, Firebase, or AdMob, each of which has its own privacy policy.</p>
+<section class="quote-band">
+  <div class="container">
+    <blockquote>“প্রতিদিন একটু আলো জ্বালালে, একদিন পুরো পথ দেখা যায়।”</blockquote>
+    <cite>— প্রদীপ টিম</cite>
+  </div>
+</section>
 
-<h2>Contact</h2>
-<p>Email: eventappbangladesh@email.com</p>
+<section class="cta-band">
+  <div class="container">
+    <h2>আজই প্রদীপ জ্বালান</h2>
+    <p>সংবাদ, জ্ঞান আর পরীক্ষার প্রস্তুতি — একসাথে শুরু করুন।</p>
+    <div class="hero-cta">
+      <a href="contact.html" class="btn btn-gold">যোগাযোগ করুন</a>
+      <a href="about.html" class="btn btn-outline">আরও জানুন</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg class="lamp-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="19" fill="#08424C" stroke="#0E6E7C"/>
+            <path d="M20 10c3 4 5 7 5 10a5 5 0 1 1-10 0c0-3 2-6 5-10z" fill="#EFC24B"/>
+            <path d="M11 27c0-2 4-3 9-3s9 1 9 3-4 4-9 4-9-2-9-4z" fill="#22C7DE"/>
+          </svg>
+          <span>প্রদীপ</span>
+        </a>
+        <p>বাংলাদেশের সংবাদ ও জ্ঞানভিত্তিক অ্যাপ। বিশ্বস্ত তথ্যে প্রতিদিন এক ধাপ এগিয়ে থাকুন।</p>
+      </div>
+      <div class="footer-col">
+        <h4>দ্রুত লিংক</h4>
+        <a href="index.html">হোম</a>
+        <a href="about.html">আমাদের সম্পর্কে</a>
+        <a href="contact.html">যোগাযোগ</a>
+      </div>
+      <div class="footer-col">
+        <h4>আইনি তথ্য</h4>
+        <a href="privacy.html">গোপনীয়তা নীতি</a>
+        <a href="terms.html">শর্তাবলী</a>
+        <a href="mailto:eventappbangladesh@email.com">ইমেইল করুন</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© ২০২৬ প্রদীপ। সর্বস্বত্ব সংরক্ষিত।</span>
+      <span>তৈরি হয়েছে বাংলাদেশের পাঠকদের জন্য, ভালোবাসা দিয়ে।</span>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
